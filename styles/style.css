@@ -8,6 +8,11 @@ span{
 }
 .header-container{
     background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png'),url('../images/developer.png');
+    background-size: auto 80%;
+    background-repeat: no-repeat;
+    background-position: bottom right, left center;
+    height: 700px;
 }
 .header-main{
     display: flex;
@@ -36,9 +41,43 @@ span{
     color: #fff;
     border: 0px;
     border-radius: 3px;
-    margin-top: -7px;
+    margin-left: 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    background-color: #ed873e;
 }
 .banner-main{
     display: flex;
     align-items: center;
+    justify-content: space-around;
+    margin: 0px;
+    
+}
+.banner-content{
+    margin: 0% 16%;
+}
+.banner-content h3{
+    margin-bottom: 10px;
+}
+.banner-content h1{
+    margin-bottom: 10px;
+}
+.banner-content p{
+    margin-bottom: 10px;
+}
+.profile{
+    width: 534px;
+}
+.btn-banner{
+    background-color: #FD6E0A;
+    padding: 12px 24px;
+    color: #fff;
+    border: 0px;
+    border-radius: 3px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-right: 10px;
 }
